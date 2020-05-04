@@ -3,3 +3,6 @@ let map = L.mapquest.map('map', {
   layers: L.mapquest.tileLayer('map'),
   zoom: 12
 });
+
+para = document.createElement("p");
+para.textContent = map;
